@@ -1,0 +1,49 @@
+/home/dreadpirate/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/dreadpirate/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/ninja/linux/x64/ninja -G Ninja -S /home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror -B /home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug
+-- Checking for module 'heimdal-gssapi'
+--   No package 'heimdal-gssapi' found
+-- Could NOT find GSSAPI (missing: GSSAPI_LIBRARIES GSSAPI_INCLUDE_DIR) 
+-- Could NOT find NaCl (missing: NACL_LIBRARIES NACL_INCLUDE_DIRS) 
+CMake Warning (dev) at cmake/Modules/FindABIMap.cmake:225 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:101 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could not find `abimap` in PATH. It can be found in PyPI as `abimap` (try `pip install abimap`)
+-- Could NOT find ABIMap (missing: ABIMAP_EXECUTABLE) (Required is at least version "0.3.1")
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Threads_FOUND=TRUE
+-- ********************************************
+-- ********** libssh build options : **********
+-- Build type: Debug
+-- zlib support: ON
+-- libgcrypt support: OFF
+-- libmbedTLS support: OFF
+-- libnacl support: OFF
+-- SFTP support: ON
+-- Server support : ON
+-- GSSAPI support : 0
+-- GEX support : ON
+-- Support insecure none cipher and MAC : OFF
+-- Pcap debugging support : ON
+-- Build shared library: ON
+-- Unit testing: OFF
+-- Client code testing: OFF
+-- Blowfish cipher support: OFF
+-- PKCS #11 URI support: OFF
+-- With PKCS #11 provider support: OFF
+-- Server code testing: OFF
+-- Public API documentation generation
+-- Benchmarks: OFF
+-- Symbol versioning: ON
+-- Allow ABI break: OFF
+-- Release is final: 
+-- Global client config: /etc/ssh/ssh_config
+-- Global bind config: /etc/ssh/libssh_server_config
+-- ********************************************
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug

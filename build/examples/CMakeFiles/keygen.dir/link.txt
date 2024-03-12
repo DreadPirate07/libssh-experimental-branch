@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/keygen.dir/keygen.c.o -o keygen  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 

@@ -1,0 +1,325 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "examples/sample_sftpserver"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIE -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=address"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstrict-prototypes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=strict-prototypes"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=write-strings"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror-implicit-function-declaration"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=pointer-arith"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wdeclaration-after-statement"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=declaration-after-statement"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wreturn-type"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=uninitialized"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=strict-overflow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wstrict-overflow=2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-format-zero-length"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-field-initializers"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wsign-compare"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wold-style-definition"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=old-style-definition"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wimplicit-int"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wint-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=int-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstack-protector-strong"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fstack-clash-protection"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug/examples"
+				},
+				{
+					"path" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/examples"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ssh::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "sample_sftpserver::@714eac15f71a94114fdf",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib/libssh.so.4.9.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "sample_sftpserver",
+	"nameOnDisk" : "sample_sftpserver",
+	"paths" : 
+	{
+		"build" : "examples",
+		"source" : "examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/sample_sftpserver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/authentication.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/knownhosts.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/connect_ssh.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

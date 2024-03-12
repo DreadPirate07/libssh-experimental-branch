@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/scp_download.dir/scp_download.c.o CMakeFiles/scp_download.dir/authentication.c.o CMakeFiles/scp_download.dir/knownhosts.c.o CMakeFiles/scp_download.dir/connect_ssh.c.o -o scp_download  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 

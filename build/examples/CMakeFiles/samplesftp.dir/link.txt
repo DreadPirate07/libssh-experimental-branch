@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/samplesftp.dir/samplesftp.c.o CMakeFiles/samplesftp.dir/authentication.c.o CMakeFiles/samplesftp.dir/knownhosts.c.o CMakeFiles/samplesftp.dir/connect_ssh.c.o -o samplesftp  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 

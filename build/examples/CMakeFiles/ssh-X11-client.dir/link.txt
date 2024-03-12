@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ssh-X11-client.dir/ssh_X11_client.c.o CMakeFiles/ssh-X11-client.dir/authentication.c.o CMakeFiles/ssh-X11-client.dir/knownhosts.c.o CMakeFiles/ssh-X11-client.dir/connect_ssh.c.o -o ssh-X11-client  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 

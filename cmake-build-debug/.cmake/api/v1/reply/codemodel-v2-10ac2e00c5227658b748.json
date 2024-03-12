@@ -1,0 +1,336 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-46ec9fa8a380b97e5a27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "doc",
+					"jsonFile" : "directory-doc-Debug-00ee67dbe228fd23eb89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc"
+				},
+				{
+					"build" : "include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include-Debug-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "include"
+				},
+				{
+					"build" : "include/libssh",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include.libssh-Debug-b0dcee2950e538fc2bd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "include/libssh"
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-5348aad0eff1d157206d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4
+					],
+					"name" : "libssh",
+					"targetIndexes" : 
+					[
+						0,
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "libssh-headers-x",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libssh-headers",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "libssh-examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-Debug-38ba8e45f886b8190f47.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "exec::@714eac15f71a94114fdf",
+					"jsonFile" : "target-exec-Debug-804050bb55a5d90e518f.json",
+					"name" : "exec",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "keygen::@714eac15f71a94114fdf",
+					"jsonFile" : "target-keygen-Debug-d47575038009a2e6307a.json",
+					"name" : "keygen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "keygen2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-keygen2-Debug-485308da672ee24c684c.json",
+					"name" : "keygen2",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libssh_scp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-libssh_scp-Debug-c0a2dd04f43d41ff6489.json",
+					"name" : "libssh_scp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libsshpp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-libsshpp-Debug-43edbf8bd3b182917c19.json",
+					"name" : "libsshpp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libsshpp_noexcept::@714eac15f71a94114fdf",
+					"jsonFile" : "target-libsshpp_noexcept-Debug-2aaabfc63194c1900bd7.json",
+					"name" : "libsshpp_noexcept",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sample_sftpserver::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sample_sftpserver-Debug-8a90b3be18f3673193e9.json",
+					"name" : "sample_sftpserver",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "samplesftp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-samplesftp-Debug-576dd8527869e6abcc61.json",
+					"name" : "samplesftp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "samplesshd-cb::@714eac15f71a94114fdf",
+					"jsonFile" : "target-samplesshd-cb-Debug-aea4e1b6a3210e99d7ce.json",
+					"name" : "samplesshd-cb",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "samplesshd-kbdint::@714eac15f71a94114fdf",
+					"jsonFile" : "target-samplesshd-kbdint-Debug-9e92e00e6edb207e8fe7.json",
+					"name" : "samplesshd-kbdint",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "scp_download::@714eac15f71a94114fdf",
+					"jsonFile" : "target-scp_download-Debug-7845f5abe327a06b7bc0.json",
+					"name" : "scp_download",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "senddata::@714eac15f71a94114fdf",
+					"jsonFile" : "target-senddata-Debug-3ea7821aeed66f9d16aa.json",
+					"name" : "senddata",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ssh::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ssh-Debug-132d5bef4a7e0a6ded51.json",
+					"name" : "ssh",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ssh-X11-client::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ssh-X11-client-Debug-601057ef3e211ad35c18.json",
+					"name" : "ssh-X11-client",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ssh-client::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ssh-client-Debug-2f8fdd6fc3a24e8b0a3a.json",
+					"name" : "ssh-client",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ssh_server_fork::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ssh_server_fork-Debug-f9531e36ff3d4158ff21.json",
+					"name" : "ssh_server_fork",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ssh_server_pthread::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ssh_server_pthread-Debug-a355424c3afd96be75b5.json",
+					"name" : "ssh_server_pthread",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sshnetcat::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sshnetcat-Debug-88543256f3371771e17d.json",
+					"name" : "sshnetcat",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/cmake-build-debug",
+		"source" : "/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ssh_server_pthread.dir/ssh_server.c.o -o ssh_server_pthread  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 -lpthread -lutil 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/torture_moduli.dir/torture_moduli.c.o -o torture_moduli  ../libtorture.a /usr/lib/x86_64-linux-gnu/libcmocka.so ../../src/libssh.a -lrt /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libz.so 

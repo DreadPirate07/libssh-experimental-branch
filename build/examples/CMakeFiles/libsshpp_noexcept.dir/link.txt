@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o -o libsshpp_noexcept  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 

@@ -1,0 +1,16 @@
+/usr/lib/x86_64-linux-gnu/pkgconfig/libssh.pc
+/usr/lib/x86_64-linux-gnu/cmake/libssh/libssh-config-version.cmake
+/usr/include/libssh/callbacks.h
+/usr/include/libssh/libssh.h
+/usr/include/libssh/ssh2.h
+/usr/include/libssh/legacy.h
+/usr/include/libssh/libsshpp.hpp
+/usr/include/libssh/sftp.h
+/usr/include/libssh/server.h
+/usr/include/libssh/sftpserver.h
+/usr/include/libssh/libssh_version.h
+/usr/lib/x86_64-linux-gnu/libssh.so.4.9.0
+/usr/lib/x86_64-linux-gnu/libssh.so.4
+/usr/lib/x86_64-linux-gnu/libssh.so
+/usr/lib/x86_64-linux-gnu/cmake/libssh/libssh-config.cmake
+/usr/lib/x86_64-linux-gnu/cmake/libssh/libssh-config-debug.cmake

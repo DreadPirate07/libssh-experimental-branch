@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/exec.dir/exec.c.o CMakeFiles/exec.dir/authentication.c.o CMakeFiles/exec.dir/knownhosts.c.o CMakeFiles/exec.dir/connect_ssh.c.o -o exec  -Wl,-rpath,/home/dreadpirate/CodingPirate/libssh/gitlab-ssh/libssh-mirror/build/lib ../lib/libssh.so.4.9.0 
